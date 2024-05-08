@@ -1,0 +1,17 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1715185158
+Background.tscn::PackedScene::4928052191720637493::1715185158::0::1::::<><>::uid://wic8ywu5ukis::::res://icon.svg<>uid://dtke1ypp5kqus::::res://Object.tscn
+icon.svg::CompressedTexture2D::1560851242749282250::1714159702::1714159792::1::::<><>::
+Object.tscn::PackedScene::8513784440809612746::1715185157::0::1::::<><>::res://Object_script.gd<>uid://wic8ywu5ukis::::res://icon.svg
+Object_script.gd::GDScript::-1::1714584268::0::1::::<>Node2D<>::
+::res://addons/::1715185525
+backgroundwithpanel-01.png::CompressedTexture2D::108416272112760077::1715185120::1715185545::1::::<><>::
+::res://addons/godot-git-plugin-v3.1.1/::1714331625
+::res://addons/godot-git-plugin-v3.1.1/addons/::1714331625
+::res://addons/godot-git-plugin-v3.1.1/addons/godot-git-plugin/::1714331627
+git_plugin.gdextension::GDExtension::-1::1714331626::0::1::::<><>::
+plugin.cfg::TextFile::-1::1714331627::0::1::::<><>::
+THIRDPARTY.md::TextFile::-1::1714331627::0::1::::<><>::
+::res://addons/godot-git-plugin-v3.1.1/addons/godot-git-plugin/linux/::1714331627
+::res://addons/godot-git-plugin-v3.1.1/addons/godot-git-plugin/macos/::1714331627
+::res://addons/godot-git-plugin-v3.1.1/addons/godot-git-plugin/win64/::1715185146
