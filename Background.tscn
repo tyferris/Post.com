@@ -1,0 +1,36 @@
+[gd_scene load_steps=3 format=3 uid="uid://cchgkglqsircn"]
+
+[ext_resource type="Texture2D" uid="uid://bsrun106s7wb" path="res://addons/backgroundwithpanel-01.png" id="1_sjn47"]
+[ext_resource type="PackedScene" uid="uid://dtke1ypp5kqus" path="res://Object.tscn" id="2_y3q68"]
+
+[node name="Background" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+clip_children = 2
+position = Vector2(600, 300)
+scale = Vector2(0.15, 0.133333)
+texture = ExtResource("1_sjn47")
+
+[node name="Object" parent="." instance=ExtResource("2_y3q68")]
+position = Vector2(1112, 504)
+
+[node name="Object2" parent="." instance=ExtResource("2_y3q68")]
+position = Vector2(80, 80)
+
+[node name="Object3" parent="." instance=ExtResource("2_y3q68")]
+position = Vector2(80, 216)
+
+[node name="Object4" parent="." instance=ExtResource("2_y3q68")]
+position = Vector2(80, 360)
+
+[node name="Object5" parent="." instance=ExtResource("2_y3q68")]
+position = Vector2(88, 496)
+
+[node name="Object6" parent="." instance=ExtResource("2_y3q68")]
+position = Vector2(1112, 80)
+
+[node name="Object7" parent="." instance=ExtResource("2_y3q68")]
+position = Vector2(1112, 216)
+
+[node name="Object8" parent="." instance=ExtResource("2_y3q68")]
+position = Vector2(1120, 360)
