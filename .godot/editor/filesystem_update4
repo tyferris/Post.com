@@ -1,14 +1,2 @@
-res://Object.tscn
 res://Background.tscn
-res://game.tscn
-<<<<<<< Updated upstream
-=======
-res://Object_script.gd
-res://Opacity.gd
-res://trash.tscn
-res://plastic.tscn
-res://paper.tscn
-res://can.tscn
 res://bottle.tscn
-res://test.tscn
->>>>>>> Stashed changes
