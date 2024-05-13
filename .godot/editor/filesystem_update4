@@ -1,2 +1,4 @@
-res://Object.tscn
 res://Background.tscn
+res://Object_script.gd
+res://Object.tscn
+res://The_Bin.gd
