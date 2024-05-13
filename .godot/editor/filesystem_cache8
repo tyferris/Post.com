@@ -1,4 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
+<<<<<<< Updated upstream
 ::res://::1715558689
 Background.tscn::PackedScene::4928052191720637493::1715557946::0::1::::<><>::uid://bsrun106s7wb::::res://addons/backgroundwithpanel-01.png<>uid://dtke1ypp5kqus::::res://Object.tscn
 icon.svg::CompressedTexture2D::1560851242749282250::1715557946::1715557946::1::::<><>::
@@ -18,3 +19,17 @@ README.md::TextFile::-1::1715557946::0::1::::<><>::
 ::res://addons/godot-git-plugin-v3.1.1/addons/::1715557946
 ::res://addons/godot-git-plugin-v3.1.1/addons/godot-git-plugin/::1715557946
 ::res://addons/godot-git-plugin-v3.1.1/addons/godot-git-plugin/win64/::1715557946
+=======
+::res://::1715568580
+Background.tscn::PackedScene::4928052191720637493::1715568549::0::1::::<><>::uid://dtke1ypp5kqus::::res://bottle.tscn<>res://The_Bin.gd
+bottle.tscn::PackedScene::8513784440809612746::1715568004::0::1::::<><>::res://Object_script.gd<>res://object-04.png<>res://object-17.png
+can.tscn::PackedScene::452300663080993312::1715568570::0::1::::<><>::res://Object_script.gd<>res://object-04.png<>res://object-17.png
+game.tscn::PackedScene::3721865259332984290::1715567825::0::1::::<><>::res://object-20.png<>res://object-17.png<>res://object-16.png<>res://object-18.png<>res://object-19.png
+Object_script.gd::GDScript::-1::1715566840::0::1::::<>Node2D<>::
+Opacity.gd::GDScript::-1::1715566840::0::1::::<>Sprite2D<>::
+plastic.tscn::PackedScene::5765606885573666479::1715568580::0::1::::<><>::res://Object_script.gd<>res://object-04.png<>res://object-17.png
+README.md::TextFile::-1::1715557946::0::1::::<><>::
+paper.tscn::PackedScene::9060000543670884284::1715568600::0::1::::<><>::res://Object_script.gd<>res://object-04.png<>res://object-17.png
+The_Bin.gd::GDScript::-1::1715566800::0::1::::<>Area2D<>::
+trash.tscn::PackedScene::5820304378804423655::1715568537::0::1::::<><>::res://Object_script.gd<>res://object-04.png<>res://object-17.png
+>>>>>>> Stashed changes

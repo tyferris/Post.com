@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 [gd_scene load_steps=2 format=3 uid="uid://cchgkglqsircn"]
 
 [ext_resource type="PackedScene" uid="uid://dtke1ypp5kqus" path="res://Object.tscn" id="2_y3q68"]
@@ -36,3 +37,29 @@ position = Vector2(1112, 216)
 [node name="Object8" parent="." instance=ExtResource("2_y3q68")]
 visible = false
 position = Vector2(1120, 360)
+=======
+[gd_scene load_steps=6 format=3 uid="uid://cchgkglqsircn"]
+
+[ext_resource type="PackedScene" uid="uid://dtke1ypp5kqus" path="res://bottle.tscn" id="2_y3q68"]
+[ext_resource type="PackedScene" uid="uid://gpdlcw1mw05q" path="res://can.tscn" id="3_76w7p"]
+[ext_resource type="PackedScene" uid="uid://d2cy5dmyle48w" path="res://paper.tscn" id="4_1ox5f"]
+[ext_resource type="PackedScene" uid="uid://coe5x5yjin46v" path="res://plastic.tscn" id="5_1shum"]
+[ext_resource type="PackedScene" uid="uid://co6ntes13381p" path="res://trash.tscn" id="6_rbp11"]
+
+[node name="Background" type="Node2D"]
+
+[node name="Object2" parent="." instance=ExtResource("2_y3q68")]
+position = Vector2(80, 96)
+
+[node name="Object3" parent="." instance=ExtResource("3_76w7p")]
+position = Vector2(88, 192)
+
+[node name="Object4" parent="." instance=ExtResource("4_1ox5f")]
+position = Vector2(88, 272)
+
+[node name="Object5" parent="." instance=ExtResource("5_1shum")]
+position = Vector2(88, 352)
+
+[node name="Object6" parent="." instance=ExtResource("6_rbp11")]
+position = Vector2(88, 456)
+>>>>>>> Stashed changes

@@ -1,9 +1,15 @@
+<<<<<<< Updated upstream
 AnimatedSprite2D
 CharacterBody2D
 Sprite2D
 Node
+=======
+>>>>>>> Stashed changes
 ColorRect
+AnimatedSprite2D
+Sprite2D
 CollisionShape2D
+Node
 Area2D
 Node2D
 StaticBody2D

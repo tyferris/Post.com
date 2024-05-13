@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 [gd_scene load_steps=6 format=3 uid="uid://s61f4qgjwv38"]
 
 [ext_resource type="Texture2D" uid="uid://c50wi2v5gul2n" path="res://object-04.png" id="1_6qhy5"]
@@ -6,6 +7,18 @@
 [sub_resource type="AtlasTexture" id="AtlasTexture_xhh81"]
 atlas = ExtResource("1_6qhy5")
 region = Rect2(0, 0, 2545, 3566)
+=======
+[gd_scene load_steps=17 format=3 uid="uid://bta5tvcmsvmv7"]
+
+[ext_resource type="Texture2D" path="res://object-20.png" id="2_2k206"]
+[ext_resource type="Texture2D" path="res://object-17.png" id="2_c7jor"]
+[ext_resource type="Texture2D" path="res://object-16.png" id="3_55yfo"]
+[ext_resource type="Texture2D" path="res://object-18.png" id="4_pqiox"]
+[ext_resource type="Texture2D" path="res://object-19.png" id="5_wgek7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k6sp4"]
+size = Vector2(64, 64)
+>>>>>>> Stashed changes
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_naxq3"]
 atlas = ExtResource("2_c7jor")
@@ -14,10 +27,14 @@ region = Rect2(0, 0, 2560, 3475)
 [sub_resource type="SpriteFrames" id="SpriteFrames_h35s1"]
 animations = [{
 "frames": [{
+<<<<<<< Updated upstream
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_xhh81")
 }, {
 "duration": 1.0,
+=======
+"duration": 2.0,
+>>>>>>> Stashed changes
 "texture": SubResource("AtlasTexture_naxq3")
 }],
 "loop": true,
@@ -25,6 +42,7 @@ animations = [{
 "speed": 5.0
 }]
 
+<<<<<<< Updated upstream
 [node name="game" type="Node2D"]
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
@@ -33,3 +51,113 @@ motion_mode = 1
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
 scale = Vector2(0.0251473, 0.0179473)
 sprite_frames = SubResource("SpriteFrames_h35s1")
+=======
+[sub_resource type="AtlasTexture" id="AtlasTexture_4233q"]
+atlas = ExtResource("2_2k206")
+region = Rect2(0, 0, 2510, 3448)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fltwc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4233q")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4wenj"]
+atlas = ExtResource("3_55yfo")
+region = Rect2(0, 0, 2560, 3300)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_62mel"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4wenj")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lkimn"]
+atlas = ExtResource("4_pqiox")
+region = Rect2(0, 0, 2548, 3483)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rp2ds"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lkimn")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_atjsb"]
+atlas = ExtResource("5_wgek7")
+region = Rect2(0, 0, 2500, 3448)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5idvj"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_atjsb")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="game" type="Node2D"]
+
+[node name="bottle" type="CharacterBody2D" parent="."]
+position = Vector2(96, 96)
+motion_mode = 1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bottle"]
+shape = SubResource("RectangleShape2D_k6sp4")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="bottle/CollisionShape2D"]
+position = Vector2(168, 32)
+scale = Vector2(0.0251473, 0.0179473)
+sprite_frames = SubResource("SpriteFrames_h35s1")
+frame_progress = 0.823414
+
+[node name="can" type="CharacterBody2D" parent="."]
+position = Vector2(-496, 160)
+motion_mode = 1
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="can"]
+scale = Vector2(0.0246016, 0.0188515)
+sprite_frames = SubResource("SpriteFrames_fltwc")
+
+[node name="paper" type="CharacterBody2D" parent="."]
+position = Vector2(-104, 56)
+motion_mode = 1
+
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="paper"]
+position = Vector2(9.09495e-13, 3.63798e-12)
+scale = Vector2(0.025, 0.0193939)
+sprite_frames = SubResource("SpriteFrames_62mel")
+
+[node name="plastic" type="CharacterBody2D" parent="."]
+position = Vector2(-184, 296)
+motion_mode = 1
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="plastic"]
+position = Vector2(0, 3.05176e-05)
+scale = Vector2(0.0251177, 0.018375)
+sprite_frames = SubResource("SpriteFrames_rp2ds")
+
+[node name="trash" type="CharacterBody2D" parent="."]
+position = Vector2(-280, 184)
+motion_mode = 1
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="trash"]
+scale = Vector2(0.0256, 0.0185615)
+sprite_frames = SubResource("SpriteFrames_5idvj")
+>>>>>>> Stashed changes

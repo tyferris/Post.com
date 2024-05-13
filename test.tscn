@@ -1,0 +1,29 @@
+[gd_scene load_steps=6 format=3 uid="uid://sxm03irfa158"]
+
+[ext_resource type="PackedScene" uid="uid://dtke1ypp5kqus" path="res://bottle.tscn" id="1_13yg1"]
+[ext_resource type="PackedScene" uid="uid://gpdlcw1mw05q" path="res://can.tscn" id="2_0dqj5"]
+[ext_resource type="PackedScene" uid="uid://d2cy5dmyle48w" path="res://paper.tscn" id="3_fna5j"]
+[ext_resource type="PackedScene" uid="uid://coe5x5yjin46v" path="res://plastic.tscn" id="4_wdfmh"]
+[ext_resource type="PackedScene" uid="uid://co6ntes13381p" path="res://trash.tscn" id="5_rcww8"]
+
+[node name="test" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_top = -8.0
+offset_right = 1168.0
+offset_bottom = 656.0
+
+[node name="Object" parent="." instance=ExtResource("1_13yg1")]
+position = Vector2(96, 88)
+
+[node name="Object2" parent="." instance=ExtResource("2_0dqj5")]
+position = Vector2(112, 176)
+
+[node name="Object3" parent="." instance=ExtResource("3_fna5j")]
+position = Vector2(104, 312)
+
+[node name="Object4" parent="." instance=ExtResource("4_wdfmh")]
+position = Vector2(120, 392)
+
+[node name="Object5" parent="." instance=ExtResource("5_rcww8")]
+position = Vector2(112, 504)
